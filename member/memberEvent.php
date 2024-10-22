@@ -130,6 +130,6 @@ $result = mysqli_query($conn, $sql);
     </div>
 </div>
 
-<?php include('../includes/footer.php');
+<?php
 mysqli_close($conn);
 ?>

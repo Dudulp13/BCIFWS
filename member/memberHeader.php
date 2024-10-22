@@ -16,7 +16,6 @@
     <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-
     <!-- Bootstrap CSS -->
     <link id="pagestyle" href="../assets/dashboard.css" rel="stylesheet">
 </head>
@@ -61,7 +60,7 @@
                 aria-hidden="true" id="iconSidenav"></i>
             <a class="navbar-brand m-0">
 
-                <span class="ms-1 fw-bold text-white">BCIF Member Dashboard</span>
+                <span class="ms-1 fw-bold text-white">BCIF Santa Barbara</span>
             </a>
         </div>
         <div id="user-profile-section" class="text-white">
@@ -126,19 +125,11 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white " href="#">
+                    <a class="nav-link text-white " href="baptismal.php">
                         <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                             <i class="material-icons opacity-10">water_drop</i>
                         </div>
                         <span class="nav-link-text ms-1">Baptismal</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white " href="#">
-                        <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-                            <i class="material-icons opacity-10">wc</i>
-                        </div>
-                        <span class="nav-link-text ms-1">Wedding</span>
                     </a>
                 </li>
 
@@ -164,70 +155,15 @@
                         <span class="nav-link-text ms-1">Ministry</span>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white " href="../member/memberBible.php">
-                        <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-                            <i class="material-icons opacity-10">book</i>
-                        </div>
-                        <span class="nav-link-text ms-1">Bible</span>
-                    </a>
-
-                </li> <a>add active link,logout not responsive</a>
-
             </ul>
 
         </div>
         <div class="sidenav-footer position-absolute w-100 bottom-0 ">
             <div class="mx-3">
-                <a class="btn btn-outline-secondary mt-4 w-100" href="../visitor/homeV.php" type="button">Logout</a>
+                <a class="btn btn-outline-secondary mt-4 w-100" href="home.php" type="button">Logout</a>
             </div>
         </div>
     </aside> <!-- sidebar end-->
     <!-- center main wrapper-->
     <main class="main-content position-right max-height-vh-100 h-100 border-radius-lg px-3">
         <!--  navbar-->
-        <div class="container-fluid mt-4">
-            <nav class="navbar navbar-expand-sm  mx-2 py-3">
-                <div class="container-fluid">
-                    <!-- Navbar Toggler (for mobile view) -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="material-icons opacity-10">menu</i>
-                    </button>
-
-                    <!-- Navbar Content -->
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <!-- Search Form -->
-                        <form class="col-11 d-flex me-auto bg-outline-dark" role="search">
-                            <input class="form-control me-2 " type="search" placeholder="Looking for something?"
-                                aria-label="Search">
-                            <button class="btn btn-dark my-2" type="submit">
-                                Search
-                            </button>
-                        </form>
-
-                        <!-- Navbar Items -->
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    <img src="../img/profile.jpg" width="40" height="40" class="rounded-circle"
-                                        alt="Profile Picture">
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Dashboard</a></li>
-                                    <li><a class="dropdown-item" href="#">Edit Profile</a></li>
-                                    <li><a class="dropdown-item" href="../visitor/homeV.php">Log Out</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <br>
-
-
-
-            <!-- End Navbar -->
-
-            <script src="../assets/bootstrap.bundle.min.js"></script>
